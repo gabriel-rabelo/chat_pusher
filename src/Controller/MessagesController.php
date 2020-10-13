@@ -19,10 +19,9 @@ class MessagesController extends AppController
      */
     public function index()
     {
-        $user = $this->Users.getAllUser();
         $messages = $this->paginate($this->Messages);
 
-        $this->set(compact('messages', 'user'));
+        $this->set(compact('messages'));
     }
 
     /**
