@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d7bbc74-e15f-4836-8b13-578423b7600f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MessagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MessagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Messages/index.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Messages/index.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Pages/home.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Pages/home.ctp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Template/Users/index.ctp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Template/Users/index.ctp" afterDir="false" />
-    </list>
+    <list default="true" id="0d7bbc74-e15f-4836-8b13-578423b7600f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +135,7 @@
       <workItem from="1602010925069" duration="2483000" />
       <workItem from="1602017588813" duration="973000" />
       <workItem from="1602611121739" duration="833000" />
-      <workItem from="1602611979228" duration="2259000" />
+      <workItem from="1602611979228" duration="3885000" />
     </task>
     <servers />
   </component>

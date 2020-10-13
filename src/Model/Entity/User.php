@@ -9,7 +9,7 @@ use Cake\ORM\Entity;
  * @property int $id
  * @property string $name
  * @property string $email
- * @property string $PASSWORD
+ * @property string $pass
  */
 class User extends Entity
 {
@@ -25,6 +25,6 @@ class User extends Entity
     protected $_accessible = [
         'name' => true,
         'email' => true,
-        'PASSWORD' => true,
+        'pass' => true,
     ];
 }

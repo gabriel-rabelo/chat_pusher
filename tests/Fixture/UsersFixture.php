@@ -18,7 +18,7 @@ class UsersFixture extends TestFixture
         'id' => ['type' => 'integer', 'length' => null, 'unsigned' => false, 'null' => false, 'default' => null, 'comment' => '', 'precision' => null, 'autoIncrement' => null],
         'name' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf32_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         'email' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf32_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
-        'PASSWORD' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf32_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
+        'pass' => ['type' => 'string', 'length' => 255, 'null' => false, 'default' => null, 'collate' => 'utf32_general_ci', 'comment' => '', 'precision' => null, 'fixed' => null],
         '_constraints' => [
             'primary' => ['type' => 'primary', 'columns' => ['id'], 'length' => []],
             'email' => ['type' => 'unique', 'columns' => ['email'], 'length' => []],
@@ -41,7 +41,7 @@ class UsersFixture extends TestFixture
                 'id' => 1,
                 'name' => 'Lorem ipsum dolor sit amet',
                 'email' => 'Lorem ipsum dolor sit amet',
-                'PASSWORD' => 'Lorem ipsum dolor sit amet',
+                'pass' => 'Lorem ipsum dolor sit amet',
             ],
         ];
         parent::init();
